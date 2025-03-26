@@ -41,7 +41,7 @@ class CartItemCard extends ConsumerWidget {
                         ),
                       ),
                       Text(
-                        '\$${item.product.discountedPrice.toStringAsFixed(2)}',
+                        '\₹${item.product.discountedPrice.toStringAsFixed(2)}',
                         style: const TextStyle(
                           fontSize: 16,
                           color: Colors.green,

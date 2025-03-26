@@ -47,7 +47,7 @@ class CartPage extends ConsumerWidget {
                       ),
                     ),
                     Text(
-                      '\$${totalPrice.toStringAsFixed(2)}',
+                      '\₹${totalPrice.toStringAsFixed(2)}',
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,

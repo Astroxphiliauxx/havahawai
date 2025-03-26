@@ -65,7 +65,7 @@ class ProductCard extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '\$${product.discountedPrice.toStringAsFixed(2)}',
+                    '\₹${product.discountedPrice.toStringAsFixed(2)}',
                     style: const TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -75,7 +75,7 @@ class ProductCard extends ConsumerWidget {
                   Row(
                     children: [
                       Text(
-                        '\$${product.price.toStringAsFixed(2)}',
+                        '\₹${product.price.toStringAsFixed(2)}',
                         style: TextStyle(
                           fontSize: 12,
                           color: Colors.grey[600],
